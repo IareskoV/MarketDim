@@ -1,0 +1,46 @@
+p {
+  margin: 0;
+}
+.content {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.horisontal {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+span {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  color: #ffffff;
+}
+p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  /* or 144% */
+
+  text-decoration-line: underline;
+
+  /* red */
+
+  color: #b0292e;
+}

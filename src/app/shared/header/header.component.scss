@@ -1,0 +1,9 @@
+div {
+  background-color: black;
+  width: 100%;
+  padding: 20px;
+  & img {
+    width: 30px;
+    height: 30px;
+  }
+}

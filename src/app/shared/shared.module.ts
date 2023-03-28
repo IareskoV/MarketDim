@@ -35,6 +35,13 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     PhotosSpinnerComponent,
     FooterComponent,
     PhotoComponent,
+    ContactCardComponent,
+    OfficeCardComponent,
+    ProjectCardComponent,
+    JoinUsComponent,
+    HouseCardComponent,
+    FilterComponent,
+    ContactUsComponent,
   ],
 })
 export class SharedModule {}

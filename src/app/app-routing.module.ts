@@ -43,6 +43,16 @@ const routes: Routes = [
         (m) => m.InvestitionsModule
       ),
   },
+  {
+    path: 'houses',
+    loadChildren: () =>
+      import('./modules/houses/houses.module').then((m) => m.HousesModule),
+  },
+  {
+    path: 'team',
+    loadChildren: () =>
+      import('./modules/team/team.module').then((m) => m.TeamModule),
+  },
 ];
 
 @NgModule({

@@ -1,0 +1,31 @@
+.container {
+  border: 1px solid white;
+  padding: 30px;
+  border-radius: 20px;
+  height: 200px;
+  background-image: url(/assets/images/franco.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+span {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 130%;
+  /* or 39px */
+
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.image {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  & img {
+    width: 90px;
+  }
+}
